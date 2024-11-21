@@ -52,7 +52,7 @@
                         dataType: "json",
                         success: function (data) {
                             console.log(data)
-                            window.location.replace("/");
+                            window.location.replace("`/posts-add?userId=${data.id}");
                         },
                         error: function (data){
                             // window.location.replace("/users-view");
